@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+ width: 100%;
+ min-height: 100vh;
+ color: rgb(208, 228, 221);
+ background:lightcoral ;
+ padding-top: 4%;
+ padding-left: 10%;
+}
+.container h1{
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.container button{
+  display: flex;
+  align-items: center;
+  background: pink;
+  color:whitesmoke ;
+  font-size: 16px;
+  outline: 0;
+  border: 0;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+
+} 
+.input-box{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: rgba(243, 242, 241, 0.922);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+
+
+}
+.input-box img{
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 25px;
+  cursor: pointer;
+}
